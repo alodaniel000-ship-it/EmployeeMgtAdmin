@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeMgtAdmin.API", "EmployeeMgtAdmin.API\EmployeeMgtAdmin.API.csproj", "{33E891EF-7D90-4F69-9B8B-69EF9E4C5666}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{41F26E0E-15B6-46D8-8BC2-62BF3BABB3B3}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeMgtAdmin.Application", "EmployeeMgtAdmin.Application\EmployeeMgtAdmin.Application.csproj", "{8A392B32-D0B5-4E88-89E9-DD78CDA9E2B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33E891EF-7D90-4F69-9B8B-69EF9E4C5666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E891EF-7D90-4F69-9B8B-69EF9E4C5666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E891EF-7D90-4F69-9B8B-69EF9E4C5666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E891EF-7D90-4F69-9B8B-69EF9E4C5666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A392B32-D0B5-4E88-89E9-DD78CDA9E2B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A392B32-D0B5-4E88-89E9-DD78CDA9E2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A392B32-D0B5-4E88-89E9-DD78CDA9E2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A392B32-D0B5-4E88-89E9-DD78CDA9E2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
