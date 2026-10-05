@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "u1H2HRNAbdQ=",
+  "dgSpecHash": "0qj9iVjW4Ec=",
   "success": true,
   "projectFilePath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "/home/RUGI/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
     "/home/RUGI/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/RUGI/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
     "/home/RUGI/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
