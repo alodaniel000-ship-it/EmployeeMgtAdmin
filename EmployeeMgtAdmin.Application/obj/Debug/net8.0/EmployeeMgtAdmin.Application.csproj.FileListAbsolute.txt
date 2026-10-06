@@ -1,0 +1,15 @@
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/bin/Debug/net8.0/EmployeeMgtAdmin.Application.deps.json
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/bin/Debug/net8.0/EmployeeMgtAdmin.Application.dll
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/bin/Debug/net8.0/EmployeeMgtAdmin.Application.pdb
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/bin/Debug/net8.0/EmployeeMgtAdmin.Domain.dll
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/bin/Debug/net8.0/EmployeeMgtAdmin.Domain.pdb
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/obj/Debug/net8.0/EmployeeMgtAdmin.Application.csproj.AssemblyReference.cache
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/obj/Debug/net8.0/EmployeeMgtAdmin.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/obj/Debug/net8.0/EmployeeMgtAdmin.Application.AssemblyInfoInputs.cache
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/obj/Debug/net8.0/EmployeeMgtAdmin.Application.AssemblyInfo.cs
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/obj/Debug/net8.0/EmployeeMgtAdmin.Application.csproj.CoreCompileInputs.cache
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/obj/Debug/net8.0/EmployeeMgtAdmin.Application.csproj.CopyComplete
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/obj/Debug/net8.0/EmployeeMgtAdmin.Application.dll
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/obj/Debug/net8.0/refint/EmployeeMgtAdmin.Application.dll
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/obj/Debug/net8.0/EmployeeMgtAdmin.Application.pdb
+/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/obj/Debug/net8.0/ref/EmployeeMgtAdmin.Application.dll

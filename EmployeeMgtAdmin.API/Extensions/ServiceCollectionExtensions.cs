@@ -1,4 +1,5 @@
 using System.Text;
+using System.Threading.RateLimiting;
 using EmployeeMgtAdmin.Application.Interfaces;
 using EmployeeMgtAdmin.Application.Services;
 using EmployeeMgtAdmin.Application.Validators;
@@ -11,9 +12,6 @@ using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using System.Threading.RateLimiting;
-using EmployeeMgtAdmin.Application.Interfaces;
-using EmployeeMgtAdmin.Application.Validators;
 
 namespace EmployeeMgtAdmin.API.Extensions;
 
@@ -41,10 +39,7 @@ public static class ServiceCollectionExtensions
         services.AddScoped<EmployeeService>();
         services.AddScoped<IAuthService, AuthService>();
         services.AddValidatorsFromAssemblyContaining<CreateEmployeeValidator>();
-
-        // In-memory cache for department lookups
         services.AddMemoryCache();
-
         return services;
     }
 

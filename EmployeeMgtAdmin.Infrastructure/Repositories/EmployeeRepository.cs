@@ -1,8 +1,6 @@
-using EmployeeMgtAdmin.Application.Interfaces;
 using EmployeeMgtAdmin.Application.DTOs.Employee;
 using EmployeeMgtAdmin.Application.Interfaces;
 using EmployeeMgtAdmin.Domain.Entities;
-using EmployeeMgtAdmin.Infrastructure.Database;
 using EmployeeMgtAdmin.Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
 
@@ -79,7 +77,6 @@ public class EmployeeRepository : IEmployeeRepository
     {
         _db.Employees.Add(employee);
         await _db.SaveChangesAsync();
-        // reload with navigation
         return (await GetByIdAsync(employee.Id))!;
     }
 

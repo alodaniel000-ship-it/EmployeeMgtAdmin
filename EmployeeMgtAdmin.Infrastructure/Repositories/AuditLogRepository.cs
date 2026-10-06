@@ -1,7 +1,6 @@
 using EmployeeMgtAdmin.Application.Interfaces;
 using EmployeeMgtAdmin.Domain.Entities;
 using EmployeeMgtAdmin.Infrastructure.Database;
-using EmployeeMgtAdmin.Infrastructure.Database;
 
 namespace EmployeeMgtAdmin.Infrastructure.Repositories;
 

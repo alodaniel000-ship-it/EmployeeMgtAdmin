@@ -3,7 +3,6 @@ using System.Security.Claims;
 using System.Text;
 using EmployeeMgtAdmin.Application.DTOs.Auth;
 using EmployeeMgtAdmin.Application.Interfaces;
-using EmployeeMgtAdmin.Application.Interfaces;
 using EmployeeMgtAdmin.Domain.Entities;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;

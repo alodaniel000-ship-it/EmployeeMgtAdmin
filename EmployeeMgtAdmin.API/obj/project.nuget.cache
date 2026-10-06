@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TWP1UQ/rJ+Y=",
+  "dgSpecHash": "fo/Hs3crLq3X/KK+aRjs8mfMKExtZTk5hB/DrB1WgJPFIZlynW1HuQfLHP1pO0wdt4nvVrKuGmbJXC3UbcO0fA==",
   "success": true,
   "projectFilePath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.API/EmployeeMgtAdmin.API.csproj",
   "expectedPackageFiles": [
@@ -10,9 +10,9 @@
     "/home/RUGI/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.1.1/fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
     "/home/RUGI/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.11/microsoft.aspnetcore.authentication.jwtbearer.8.0.11.nupkg.sha512",
     "/home/RUGI/.nuget/packages/microsoft.bcl.cryptography/10.0.2/microsoft.bcl.cryptography.10.0.2.nupkg.sha512",
-    "/home/RUGI/.nuget/packages/microsoft.entityframeworkcore/8.0.31/microsoft.entityframeworkcore.8.0.31.nupkg.sha512",
-    "/home/RUGI/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.31/microsoft.entityframeworkcore.abstractions.8.0.31.nupkg.sha512",
-    "/home/RUGI/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.31/microsoft.entityframeworkcore.analyzers.8.0.31.nupkg.sha512",
+    "/home/RUGI/.nuget/packages/microsoft.entityframeworkcore/8.0.11/microsoft.entityframeworkcore.8.0.11.nupkg.sha512",
+    "/home/RUGI/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.11/microsoft.entityframeworkcore.abstractions.8.0.11.nupkg.sha512",
+    "/home/RUGI/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.11/microsoft.entityframeworkcore.analyzers.8.0.11.nupkg.sha512",
     "/home/RUGI/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.11/microsoft.entityframeworkcore.relational.8.0.11.nupkg.sha512",
     "/home/RUGI/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/RUGI/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
