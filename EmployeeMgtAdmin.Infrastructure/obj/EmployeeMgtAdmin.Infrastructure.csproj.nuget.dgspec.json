@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[4.2.0, )"
             },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.11.0, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[12.1.1, )"
@@ -70,6 +74,10 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.23.0, )"
+            },
+            "XunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -143,6 +151,10 @@
               "target": "Package",
               "version": "[4.2.0, )"
             },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.11.0, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[12.1.1, )"
@@ -162,6 +174,10 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.23.0, )"
+            },
+            "XunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -231,6 +247,10 @@
               "target": "Package",
               "version": "[4.2.0, )"
             },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.11.0, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[12.1.1, )"
@@ -250,6 +270,10 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.23.0, )"
+            },
+            "XunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -329,6 +353,10 @@
               "target": "Package",
               "version": "[4.2.0, )"
             },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.11.0, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[12.1.1, )"
@@ -348,6 +376,10 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.23.0, )"
+            },
+            "XunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

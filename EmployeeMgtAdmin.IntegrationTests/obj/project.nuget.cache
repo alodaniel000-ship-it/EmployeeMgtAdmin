@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "S3jexG508rk=",
+  "success": true,
+  "projectFilePath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.IntegrationTests/EmployeeMgtAdmin.IntegrationTests.csproj",
+  "expectedPackageFiles": [
+    "/home/RUGI/.nuget/packages/fluentassertions/8.11.0/fluentassertions.8.11.0.nupkg.sha512",
+    "/home/RUGI/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/RUGI/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
+    "/home/RUGI/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "/home/RUGI/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "/home/RUGI/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "/home/RUGI/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "/home/RUGI/.nuget/packages/xunitxml.testlogger/8.0.0/xunitxml.testlogger.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
