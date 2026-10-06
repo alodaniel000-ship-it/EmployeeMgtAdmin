@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/K9VmpGGXzXjiIAqd4SVVB5/H7dwsfIuDvjVo+XDZTbL57psdHBuD/EbMx9HPbPUyit0hSHFclmCET9OtN7m7w==",
+  "dgSpecHash": "TD91nHkfmz2ldFIl0EcP6C7U1BchGa6XAiwlNhzSO9URWwmAkEug1QuRn1ByLzm58usF3KUMQehbNAckq9LRKA==",
   "success": true,
-  "projectFilePath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj",
+  "projectFilePath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -9,3 +9,15 @@
 /home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/Debug/net8.0/refint/EmployeeMgtAdmin.Domain.dll
 /home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/Debug/net8.0/EmployeeMgtAdmin.Domain.pdb
 /home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/Debug/net8.0/ref/EmployeeMgtAdmin.Domain.dll
+/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/bin/Debug/net8.0/EmployeeMgtAdmin.Domain.deps.json
+/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/bin/Debug/net8.0/EmployeeMgtAdmin.Domain.dll
+/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/bin/Debug/net8.0/EmployeeMgtAdmin.Domain.pdb
+/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/Debug/net8.0/EmployeeMgtAdmin.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/Debug/net8.0/EmployeeMgtAdmin.Domain.AssemblyInfoInputs.cache
+/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/Debug/net8.0/EmployeeMgtAdmin.Domain.AssemblyInfo.cs
+/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/Debug/net8.0/EmployeeMgtAdmin.Domain.csproj.CoreCompileInputs.cache
+/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/Debug/net8.0/EmployeeMgtAdmin.Domain.sourcelink.json
+/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/Debug/net8.0/EmployeeMgtAdmin.Domain.dll
+/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/Debug/net8.0/refint/EmployeeMgtAdmin.Domain.dll
+/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/Debug/net8.0/EmployeeMgtAdmin.Domain.pdb
+/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/Debug/net8.0/ref/EmployeeMgtAdmin.Domain.dll

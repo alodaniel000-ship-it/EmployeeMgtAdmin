@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj": {}
+    "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj": {
+    "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj",
+        "projectUniqueName": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj",
         "projectName": "EmployeeMgtAdmin.Application",
-        "projectPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj",
+        "projectPath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj",
         "packagesPath": "/home/RUGI/.nuget/packages/",
-        "outputPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/obj/",
+        "outputPath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/RUGI/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj": {
-                "projectPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj"
+              "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj": {
+                "projectPath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj": {
+    "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj",
+        "projectUniqueName": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj",
         "projectName": "EmployeeMgtAdmin.Domain",
-        "projectPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj",
+        "projectPath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj",
         "packagesPath": "/home/RUGI/.nuget/packages/",
-        "outputPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/",
+        "outputPath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/RUGI/.nuget/NuGet/NuGet.Config"
@@ -128,14 +128,14 @@
         }
       }
     },
-    "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj": {
+    "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj",
+        "projectUniqueName": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj",
         "projectName": "EmployeeMgtAdmin.Infrastructure",
-        "projectPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj",
+        "projectPath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj",
         "packagesPath": "/home/RUGI/.nuget/packages/",
-        "outputPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/obj/",
+        "outputPath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/RUGI/.nuget/NuGet/NuGet.Config"
@@ -150,11 +150,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj": {
-                "projectPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj"
+              "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj": {
+                "projectPath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj"
               },
-              "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj": {
-                "projectPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj"
+              "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj": {
+                "projectPath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj"
               }
             }
           }

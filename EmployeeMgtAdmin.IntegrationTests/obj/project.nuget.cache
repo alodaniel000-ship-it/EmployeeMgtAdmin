@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S3jexG508rk=",
+  "dgSpecHash": "Zs8U02JwZ+g/cOcjZCvTUxSUFuuZr1ygJEVzKfhy9AP7KN8+RRmKo6PKbnChmEt9C1oufbgCBrZ9CIsirYCX+w==",
   "success": true,
-  "projectFilePath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.IntegrationTests/EmployeeMgtAdmin.IntegrationTests.csproj",
+  "projectFilePath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.IntegrationTests/EmployeeMgtAdmin.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "/home/RUGI/.nuget/packages/fluentassertions/8.11.0/fluentassertions.8.11.0.nupkg.sha512",
     "/home/RUGI/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

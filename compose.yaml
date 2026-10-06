@@ -1,7 +1,0 @@
-﻿services:
-  employeemgtadmin:
-    image: employeemgtadmin
-    build:
-      context: .
-      dockerfile: EmployeeMgtAdmin/Dockerfile
-

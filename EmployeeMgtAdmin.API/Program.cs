@@ -31,15 +31,13 @@ using (var scope = app.Services.CreateScope())
 // Middleware pipeline
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
-if (app.Environment.IsDevelopment())
+// Enable Swagger UI for all environments
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Employee Management API v1");
-        c.RoutePrefix = string.Empty;
-    });
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Employee Management API v1");
+    c.RoutePrefix = string.Empty;
+});
 
 // Only redirect to HTTPS in non-development environments
 if (!app.Environment.IsDevelopment())

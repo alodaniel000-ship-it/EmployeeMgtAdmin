@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fo/Hs3crLq3X/KK+aRjs8mfMKExtZTk5hB/DrB1WgJPFIZlynW1HuQfLHP1pO0wdt4nvVrKuGmbJXC3UbcO0fA==",
+  "dgSpecHash": "WCQ6YlXO24fzTt6bZ2lpTqnixhnoHoO0Y6rkTCn0UmV+5vqWX9eBV22IRkdv/EDs8wkPWTd9cyAx+XRer8VA3w==",
   "success": true,
-  "projectFilePath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.API/EmployeeMgtAdmin.API.csproj",
+  "projectFilePath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.API/EmployeeMgtAdmin.API.csproj",
   "expectedPackageFiles": [
     "/home/RUGI/.nuget/packages/aspnetcore.healthchecks.npgsql/8.0.2/aspnetcore.healthchecks.npgsql.8.0.2.nupkg.sha512",
     "/home/RUGI/.nuget/packages/bcrypt.net-next/4.2.0/bcrypt.net-next.4.2.0.nupkg.sha512",

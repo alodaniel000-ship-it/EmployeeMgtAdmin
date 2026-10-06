@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NhhlO4LwZ6o=",
+  "dgSpecHash": "o40+4HrUVj5qP3tEvqSvBOJTyUoMytwR5ZKgCNbl68Ucf/OvIr7DTHHpCoz3eFC+k6g/zOJwKVb+xB+GeUfApg==",
   "success": true,
-  "projectFilePath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.UnitTests/EmployeeMgtAdmin.UnitTests.csproj",
+  "projectFilePath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.UnitTests/EmployeeMgtAdmin.UnitTests.csproj",
   "expectedPackageFiles": [
     "/home/RUGI/.nuget/packages/castle.core/4.3.1/castle.core.4.3.1.nupkg.sha512",
     "/home/RUGI/.nuget/packages/entityframeworkcore.testing.moq/8.1.2/entityframeworkcore.testing.moq.8.1.2.nupkg.sha512",

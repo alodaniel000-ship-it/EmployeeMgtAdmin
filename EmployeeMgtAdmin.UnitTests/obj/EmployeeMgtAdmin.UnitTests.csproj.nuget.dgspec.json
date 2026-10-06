@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.UnitTests/EmployeeMgtAdmin.UnitTests.csproj": {}
+    "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.UnitTests/EmployeeMgtAdmin.UnitTests.csproj": {}
   },
   "projects": {
-    "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.UnitTests/EmployeeMgtAdmin.UnitTests.csproj": {
+    "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.UnitTests/EmployeeMgtAdmin.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.UnitTests/EmployeeMgtAdmin.UnitTests.csproj",
+        "projectUniqueName": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.UnitTests/EmployeeMgtAdmin.UnitTests.csproj",
         "projectName": "EmployeeMgtAdmin.UnitTests",
-        "projectPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.UnitTests/EmployeeMgtAdmin.UnitTests.csproj",
+        "projectPath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.UnitTests/EmployeeMgtAdmin.UnitTests.csproj",
         "packagesPath": "/home/RUGI/.nuget/packages/",
-        "outputPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.UnitTests/obj/",
+        "outputPath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.UnitTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/RUGI/.nuget/NuGet/NuGet.Config"
@@ -24,7 +24,6 @@
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -37,7 +36,6 @@
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "EntityFrameworkCore.Testing.Moq": {

@@ -515,11 +515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.IntegrationTests/EmployeeMgtAdmin.IntegrationTests.csproj",
+      "projectUniqueName": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.IntegrationTests/EmployeeMgtAdmin.IntegrationTests.csproj",
       "projectName": "EmployeeMgtAdmin.IntegrationTests",
-      "projectPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.IntegrationTests/EmployeeMgtAdmin.IntegrationTests.csproj",
+      "projectPath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.IntegrationTests/EmployeeMgtAdmin.IntegrationTests.csproj",
       "packagesPath": "/home/RUGI/.nuget/packages/",
-      "outputPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.IntegrationTests/obj/",
+      "outputPath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.IntegrationTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/RUGI/.nuget/NuGet/NuGet.Config"
@@ -532,7 +532,6 @@
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -545,7 +544,6 @@
     },
     "frameworks": {
       "net8.0": {
-        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "FluentAssertions": {

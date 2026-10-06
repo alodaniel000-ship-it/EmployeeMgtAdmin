@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yrwtz/Q2bLoUs1L9z9axWX8fzZ0T0u0fMwSqPgN/M1bMZ9cFsg4k5h3Sx4x3wcm9VSUwvHRH0QojnPLpXvVBhg==",
+  "dgSpecHash": "EkH+eeYqyIl/HN/kzmD2NHErISWAsbqHToQUkOAABfgpI98agSTePklG1ca0G0O9xsGdKuk8o6docL4L0az94w==",
   "success": true,
-  "projectFilePath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj",
+  "projectFilePath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/RUGI/.nuget/packages/bcrypt.net-next/4.2.0/bcrypt.net-next.4.2.0.nupkg.sha512",
     "/home/RUGI/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",

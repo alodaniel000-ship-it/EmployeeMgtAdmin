@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CVomc+X3x+JlsFRQ6VkNWAEj8QHRrdYN0jOo/nSvpoPRx+UTB7LnqXi+J5lPpYu40f8N5SYZ3U2fqt+n+KRH3A==",
+  "dgSpecHash": "RrZF3W5hjK7YJejMXGq1Z2KB3+Yf8BSI5C7FInkChXjq4PAivMtM7KGWybH2LuIoPMRwRtGKMVccGPEHa4eVxw==",
   "success": true,
-  "projectFilePath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj",
+  "projectFilePath": "/home/RUGI/RiderProjects/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj",
   "expectedPackageFiles": [
     "/home/RUGI/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
     "/home/RUGI/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.1.1/fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
