@@ -1,7 +1,7 @@
 using EmployeeMgtAdmin.Application.DTOs.Employee;
 using EmployeeMgtAdmin.Domain.Entities;
 
-namespace EmployeeManagement.Application.Interfaces;
+namespace EmployeeMgtAdmin.Application.Interfaces;
 
 public interface IEmployeeRepository
 {

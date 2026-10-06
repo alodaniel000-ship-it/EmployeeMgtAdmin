@@ -1,0 +1,40 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: employeemgt_db
+    environment:
+      POSTGRES_DB: EmployeeMgtAdmin
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: EmployeeMgtAdmin.API/Dockerfile
+    container_name: employeemgt_api
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=EmployeeMgtAdmin;Username=postgres;Password=postgres"
+      Jwt__Key: "YourSuperSecretKeyThatIsAtLeast32CharactersLong!"
+      Jwt__Issuer: "EmployeeMgtAdmin.API"
+      Jwt__Audience: "EmployeeManagement.Client"
+      Jwt__ExpiryHours: "8"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

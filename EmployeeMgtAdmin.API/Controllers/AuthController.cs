@@ -1,4 +1,4 @@
-using EmployeeMgtAdmin.Application.DTOs.Auth.;
+using EmployeeMgtAdmin.Application.DTOs.Auth;
 using EmployeeMgtAdmin.Application.DTOs.Common;
 using EmployeeMgtAdmin.Application.Interfaces;
 using EmployeeMgtAdmin.Application.Validators;

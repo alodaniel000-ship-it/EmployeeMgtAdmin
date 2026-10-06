@@ -32,6 +32,9 @@
               },
               "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj": {
                 "projectPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj"
+              },
+              "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj": {
+                "projectPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj"
               }
             }
           }
@@ -47,37 +50,21 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
-            "BCrypt.Net-Next": {
+            "AspNetCore.HealthChecks.NpgSql": {
               "target": "Package",
-              "version": "[4.2.0, )"
-            },
-            "FluentAssertions": {
-              "target": "Package",
-              "version": "[8.11.0, )"
+              "version": "[8.0.2, )"
             },
             "FluentValidation": {
               "target": "Package",
               "version": "[12.1.1, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.31, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[8.23.0, )"
-            },
-            "XunitXml.TestLogger": {
-              "target": "Package",
-              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -143,41 +130,17 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
-            "BCrypt": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
-            "BCrypt.Net-Next": {
-              "target": "Package",
-              "version": "[4.2.0, )"
-            },
-            "FluentAssertions": {
-              "target": "Package",
-              "version": "[8.11.0, )"
-            },
             "FluentValidation": {
               "target": "Package",
               "version": "[12.1.1, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
-              "version": "[8.0.31, )"
+              "version": "[12.1.1, )"
             },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
-              "version": "[8.0.11, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[8.23.0, )"
-            },
-            "XunitXml.TestLogger": {
-              "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
@@ -192,9 +155,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -238,24 +198,84 @@
         "net8.0": {
           "framework": "net8.0",
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.131/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj",
+        "projectName": "EmployeeMgtAdmin.Infrastructure",
+        "projectPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/EmployeeMgtAdmin.Infrastructure.csproj",
+        "packagesPath": "/home/RUGI/.nuget/packages/",
+        "outputPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/RUGI/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "framework": "net8.0",
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj": {
+                "projectPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Application/EmployeeMgtAdmin.Application.csproj"
+              },
+              "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj": {
+                "projectPath": "/home/RUGI/Documents/ASP.NET CRUD TUTORIAL/EmployeeMgtAdmin/EmployeeMgtAdmin.Domain/EmployeeMgtAdmin.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
           "dependencies": {
-            "BCrypt": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.2.0, )"
             },
-            "FluentAssertions": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.11.0, )"
-            },
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[12.1.1, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.31, )"
             },
@@ -263,17 +283,9 @@
               "target": "Package",
               "version": "[8.0.11, )"
             },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
-            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.23.0, )"
-            },
-            "XunitXml.TestLogger": {
-              "target": "Package",
-              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -288,9 +300,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

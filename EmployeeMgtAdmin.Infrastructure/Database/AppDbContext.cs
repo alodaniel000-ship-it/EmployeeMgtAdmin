@@ -1,7 +1,7 @@
 using EmployeeMgtAdmin.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace EmployeeMgtAdmin.Infrastructure.Database.Migrations;
+namespace EmployeeMgtAdmin.Infrastructure.Database;
 
 public class AppDbContext : DbContext
 {
@@ -87,10 +87,10 @@ public class AppDbContext : DbContext
     {
         var departments = new[]
         {
-            new Department { Id = Guid.Parse("11111111-1111-1111-1111-111111111111"), Name = "Engineering", Code = "ENG", IsActive = true, CreatedAt = DateTime.UtcNow, UpdatedAt = DateTime.UtcNow },
-            new Department { Id = Guid.Parse("22222222-2222-2222-2222-222222222222"), Name = "Human Resources", Code = "HR", IsActive = true, CreatedAt = DateTime.UtcNow, UpdatedAt = DateTime.UtcNow },
-            new Department { Id = Guid.Parse("33333333-3333-3333-3333-333333333333"), Name = "Finance", Code = "FIN", IsActive = true, CreatedAt = DateTime.UtcNow, UpdatedAt = DateTime.UtcNow },
-            new Department { Id = Guid.Parse("44444444-4444-4444-4444-444444444444"), Name = "Information Technology", Code = "IT", IsActive = true, CreatedAt = DateTime.UtcNow, UpdatedAt = DateTime.UtcNow },
+            new Department { Id = Guid.Parse("11111111-1111-1111-1111-111111111111"), Name = "Engineering", Code = "ENG", IsActive = true, CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc), UpdatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc) },
+            new Department { Id = Guid.Parse("22222222-2222-2222-2222-222222222222"), Name = "Human Resources", Code = "HR", IsActive = true, CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc), UpdatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc) },
+            new Department { Id = Guid.Parse("33333333-3333-3333-3333-333333333333"), Name = "Finance", Code = "FIN", IsActive = true, CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc), UpdatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc) },
+            new Department { Id = Guid.Parse("44444444-4444-4444-4444-444444444444"), Name = "Information Technology", Code = "IT", IsActive = true, CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc), UpdatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc) },
         };
 
         modelBuilder.Entity<Department>().HasData(departments);

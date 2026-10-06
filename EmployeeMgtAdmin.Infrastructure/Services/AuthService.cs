@@ -2,7 +2,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using EmployeeMgtAdmin.Application.DTOs.Auth;
-using EmployeeManagement.Application.Interfaces;
+using EmployeeMgtAdmin.Application.Interfaces;
 using EmployeeMgtAdmin.Application.Interfaces;
 using EmployeeMgtAdmin.Domain.Entities;
 using Microsoft.Extensions.Configuration;

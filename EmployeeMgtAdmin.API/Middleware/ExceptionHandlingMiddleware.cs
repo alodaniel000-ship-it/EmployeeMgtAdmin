@@ -1,7 +1,6 @@
 using System.Net;
 using System.Text.Json;
 using EmployeeMgtAdmin.Application.DTOs.Common;
-using EmployeeMgtAdmin.Application.DTOs.Common;
 
 namespace EmployeeMgtAdmin.API.Middleware;
 

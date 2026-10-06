@@ -12,6 +12,7 @@ public class Employee
     public string JobTitle { get; set; } = string.Empty;
     public decimal Salary { get; set; }
     public DateOnly DateOfBirth { get; set; }
+    public DateOnly DateJoined { get; set; }
     public bool IsActive { get; set; } =  true;
     public bool IsDeleted { get; set; } =  false; /*This is "soft delete". Instead of permanently removing
     records from the database, we just flip this flag to true. The employee still exists in the database but is hidden

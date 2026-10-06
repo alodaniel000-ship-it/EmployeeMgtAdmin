@@ -1,9 +1,9 @@
-using EmployeeManagement.Application.Interfaces;
+using EmployeeMgtAdmin.Application.Interfaces;
 using EmployeeMgtAdmin.Application.DTOs.Employee;
 using EmployeeMgtAdmin.Application.Interfaces;
 using EmployeeMgtAdmin.Domain.Entities;
 using EmployeeMgtAdmin.Infrastructure.Database;
-using EmployeeMgtAdmin.Infrastructure.Database.Migrations;
+using EmployeeMgtAdmin.Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeMgtAdmin.Infrastructure.Repositories;
@@ -59,6 +59,8 @@ public class EmployeeRepository : IEmployeeRepository
             ("firstname" or "name", _)      => query.OrderBy(e => e.FirstName),
             ("salary", "desc")              => query.OrderByDescending(e => e.Salary),
             ("salary", _)                   => query.OrderBy(e => e.Salary),
+            ("datejoined", "desc")          => query.OrderByDescending(e => e.DateJoined),
+            ("datejoined", _)               => query.OrderBy(e => e.DateJoined),
             ("department", "desc")          => query.OrderByDescending(e => e.Department!.Name),
             ("department", _)               => query.OrderBy(e => e.Department!.Name),
             (_, "desc")                     => query.OrderByDescending(e => e.LastName),

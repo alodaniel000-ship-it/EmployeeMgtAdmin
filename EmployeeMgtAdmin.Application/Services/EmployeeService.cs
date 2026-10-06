@@ -1,6 +1,6 @@
 using EmployeeMgtAdmin.Application.DTOs.Common;
 using EmployeeMgtAdmin.Application.DTOs.Employee;
-using EmployeeManagement.Application.Interfaces;
+using EmployeeMgtAdmin.Application.Interfaces;
 using EmployeeMgtAdmin.Domain.Entities;
 using Microsoft.Extensions.Logging;
 using System.Text.Json;
@@ -71,6 +71,7 @@ public class EmployeeService
             JobTitle = dto.JobTitle,
             Salary = dto.Salary,
             DateOfBirth = dto.DateOfBirth,
+            DateJoined = dto.DateJoined,
         };
 
         var created = await _employeeRepo.CreateAsync(employee);
@@ -111,6 +112,7 @@ public class EmployeeService
         employee.JobTitle = dto.JobTitle;
         employee.Salary = dto.Salary;
         employee.DateOfBirth = dto.DateOfBirth;
+        employee.DateJoined = dto.DateJoined;
         employee.UpdatedAt = DateTime.UtcNow;
 
         var updated = await _employeeRepo.UpdateAsync(employee);
@@ -185,6 +187,7 @@ public class EmployeeService
         JobTitle = e.JobTitle,
         Salary = e.Salary,
         DateOfBirth = e.DateOfBirth,
+        DateJoined = e.DateJoined,
         IsActive = e.IsActive,
         CreatedAt = e.CreatedAt,
         UpdatedAt = e.UpdatedAt

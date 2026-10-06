@@ -125,6 +125,5 @@ public class EmployeesController : ControllerBase
     }
 
     private string? GetCurrentUserId() =>
-        User.FindFirstValue(ClaimTypes.NameIdentifier) ??
         User.FindFirstValue(JwtRegisteredClaimNames.Sub);
 }

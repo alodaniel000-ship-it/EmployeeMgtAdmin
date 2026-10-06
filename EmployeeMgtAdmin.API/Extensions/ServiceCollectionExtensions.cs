@@ -1,7 +1,7 @@
 using System.Text;
 using EmployeeMgtAdmin.Application.Interfaces;
 using EmployeeMgtAdmin.Application.Services;
-using EmployeeManagement.Application.Validators;
+using EmployeeMgtAdmin.Application.Validators;
 using EmployeeMgtAdmin.Infrastructure.Database;
 using EmployeeMgtAdmin.Infrastructure.Repositories;
 using EmployeeMgtAdmin.Infrastructure.Services;
@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Threading.RateLimiting;
-using EmployeeManagement.Application.Interfaces;
+using EmployeeMgtAdmin.Application.Interfaces;
 using EmployeeMgtAdmin.Application.Validators;
 
 namespace EmployeeMgtAdmin.API.Extensions;

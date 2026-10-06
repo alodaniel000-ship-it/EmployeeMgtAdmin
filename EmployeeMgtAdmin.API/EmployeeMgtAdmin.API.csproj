@@ -9,14 +9,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="BCrypt.Net-Next" Version="4.2.0" />
-        <PackageReference Include="FluentAssertions" Version="8.11.0" />
+        <PackageReference Include="AspNetCore.HealthChecks.NpgSql" Version="8.0.2" />
         <PackageReference Include="FluentValidation" Version="12.1.1" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.31" />
-        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.11" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
-        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.23.0" />
-        <PackageReference Include="XunitXml.TestLogger" Version="8.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     </ItemGroup>
 
     <ItemGroup>
@@ -32,6 +28,7 @@
     <ItemGroup>
       <ProjectReference Include="..\EmployeeMgtAdmin.Application\EmployeeMgtAdmin.Application.csproj" />
       <ProjectReference Include="..\EmployeeMgtAdmin.Domain\EmployeeMgtAdmin.Domain.csproj" />
+      <ProjectReference Include="..\EmployeeMgtAdmin.Infrastructure\EmployeeMgtAdmin.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
